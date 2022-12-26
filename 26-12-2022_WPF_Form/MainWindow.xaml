@@ -1,0 +1,16 @@
+﻿<Window x:Class="_26_12_2022_WPF_Form.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_26_12_2022_WPF_Form"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Columns="3">
+        <ListBox Name="Listbox1" Margin="10"></ListBox>
+        <ComboBox Name="ComboBox1" Margin="10"> </ComboBox>
+        <TreeView Name ="TreeView1" Margin="10"></TreeView>
+        </UniformGrid>
+    </Grid>
+</Window>
